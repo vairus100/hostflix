@@ -17,7 +17,7 @@ import os
 BOT_TOKEN = (os.environ.get("BOT_TOKEN") or "8857061529:AAEcz7UIP0hsXTxHKWKsdMIHAlGIyBkc0E4").strip()
 ADMIN_ID = int(os.environ.get("ADMIN_ID") or "8635274099")
 # ── المطوّرون/أدمن متعدد ──
-_DEVELOPER_IDS: set[int] = {8024838167, 
+_DEVELOPER_IDS: set[int] = {8635274099 
 00}
 if os.environ.get("ADMIN_IDS"):
     for _id in os.environ["ADMIN_IDS"].split(","):
