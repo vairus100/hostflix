@@ -14,7 +14,7 @@
 # ============================================================
 import os
 
-BOT_TOKEN = (os.environ.get("BOT_TOKEN") or "8857061529:AAEcz7UIP0hsXTxHKWKsdMIHAlGIyBkc0E4").strip()
+BOT_TOKEN = (os.environ.get("BOT_TOKEN") or "8857061529:AAGRSSJN6a6VwK_XjTwSyafTRNWMEHXORXg").strip()
 ADMIN_ID = int(os.environ.get("ADMIN_ID") or "8635274099")
 # ── المطوّرون/أدمن متعدد ──
 _DEVELOPER_IDS: set[int] = {8635274099, 
